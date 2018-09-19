@@ -4,16 +4,16 @@ public class ActualIncome {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double a;
-        System.out.println("Nhap vao he so luong cua ban ");
+        System.out.println("Please enter your co-efficients salary here");
         a = scanner.nextDouble();
 
         if ((1 <= a) && (a <= 5)) {
             double b;
-            System.out.println("Nhap so nam lam viec: ");
+            System.out.println("Please enter years at work: ");
             b = scanner.nextDouble();
 
             double c= a*4000000 + b*500000;
-            System.out.println("Luong thang cua ban la: " + c);
+            System.out.println("Your actual income: " + c);
 
         }
     }
